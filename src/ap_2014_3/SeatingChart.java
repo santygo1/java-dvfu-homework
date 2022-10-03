@@ -10,7 +10,7 @@ public class SeatingChart {
         if (rows * cols < studentList.size())
             throw new IllegalArgumentException("rows * cols must be >= studentsList size");
         if (rows < 0 || cols < 0)
-            throw new IllegalArgumentException("count of rows and columns must be bigger than zero");
+            throw new IllegalArgumentException("count of rows and columns must be bigger then zero");
 
         seats = new Student[rows][cols];
 
