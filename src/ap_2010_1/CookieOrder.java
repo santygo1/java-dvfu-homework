@@ -1,9 +1,8 @@
 package ap_2010_1;
 
 public class CookieOrder {
-
-    private String variety;
-    private int numBoxes;
+    private final String variety;
+    private final int numBoxes;
 
     public CookieOrder(String variety, int numBoxes){
         this.variety = variety;
